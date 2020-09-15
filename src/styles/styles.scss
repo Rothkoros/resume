@@ -1,6 +1,8 @@
     @use "colors";
-    @import "spacing";
+    @import "mixins";
     $fontsize: 18px;
+    $default-height:100px;
+    $default-width:100px;
     /*@mixin background($url) {
     background-image: url($url);
     background-repeat: no-repeat;
@@ -23,7 +25,7 @@
         display: flex;
         margin: 0 auto;
         padding-top: 40px;
-        @include colors.background;
+        @include background;
         height: 200px;
         flex-flow: row;
         justify-content: space-evenly;
@@ -157,6 +159,15 @@
     }
     
     a {
-        height: 100px;
-        width: 100px;
+        height: $default-height;
+        width: $default-width;
+    }
+    
+    .linkedin {
+        height: $default-height;
+        width: $default-width;
+    }
+    
+    .github {
+        @extend .linkedin;
     }
