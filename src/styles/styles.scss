@@ -1,0 +1,142 @@
+    @use "colors";
+    @import "spacing";
+    $fontsize: 18px;
+    /*@mixin background($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+    /*body {
+    @include background('https://www.papajohns.com/free-pizza/img/hero-free-pizza.jpg');
+}*/
+    
+    body {
+        background-color: #00b0f0;
+        background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+        font-size: $fontsize;
+        max-height: 100vw;
+        margin: 0 auto;
+        max-width: 1600px;
+    }
+    
+    .name {
+        display: flex;
+        margin: 0 auto;
+        padding-top: 40px;
+        @include colors.background;
+        height: 200px;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-content: center;
+        font-size: 90px;
+        border: 1px black solid;
+    }
+    
+    .fullname {
+        margin-top: 30px;
+    }
+    
+    .picture {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .picture2 {
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    
+    .content {
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+        min-height: 100vh;
+        background-color: colors.$background-color;
+    }
+    
+    .side-column {
+        font-size: $fontsize;
+        display: flex;
+        flex: .4;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+        border-right: 2px black solid;
+        border-top: colors.$border;
+    }
+    
+    .social {
+        max-width: 100%;
+        ;
+    }
+    
+    .info {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+    
+    .position {
+        @include mainbox;
+    }
+    
+    .skillsbox {
+        @include mainbox;
+        flex-flow: column;
+        border-bottom: none;
+    }
+    
+    .experience {
+        @include mainbox;
+        margin-top: 15px;
+        border-top-width: 2px;
+    }
+    
+    .social {
+        @include mainbox;
+    }
+    
+    .education {
+        @include mainbox;
+    }
+    
+    .container {
+        width: 100%;
+        /* Full width */
+        background-color: #ddd;
+        height: 42px;
+        /* Grey background */
+    }
+    
+    .skills {
+        border: colors.$border;
+        text-align: right;
+        /* Right-align text */
+        padding-top: 10px;
+        /* Add top padding */
+        padding-bottom: 10px;
+        /* Add bottom padding */
+        color: white;
+        /* White text color */
+    }
+    
+    .html {
+        width: 90%;
+        background-color: #4CAF50;
+    }
+    /* Green */
+    
+    .css {
+        width: 80%;
+        background-color: #2196F3;
+    }
+    /* Blue */
+    
+    .js {
+        width: 65%;
+        background-color: #f44336;
+    }
+    /* Red */
