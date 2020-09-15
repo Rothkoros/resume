@@ -11,7 +11,7 @@
 }*/
     
     body {
-        background-color: #00b0f0;
+        background-color: #83d4f1;
         background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
         font-size: $fontsize;
         max-height: 100vw;
@@ -140,3 +140,18 @@
         background-color: #f44336;
     }
     /* Red */
+    
+    .job-title-box {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        min-width: 100%;
+    }
+    
+    .job-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+        font-size: 3em;
+    }
