@@ -3,22 +3,13 @@
     $fontsize: 18px;
     $default-height:100px;
     $default-width:100px;
-    /*@mixin background($url) {
-    background-image: url($url);
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
-    /*body {
-    @include background('https://www.papajohns.com/free-pizza/img/hero-free-pizza.jpg');
-}*/
-    
     body {
         background-color: #83d4f1;
         background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
         font-size: $fontsize;
         max-height: 100vw;
         margin: 0 auto;
-        max-width: 1600px;
+        max-width: 1300px;
     }
     
     .name {
@@ -64,13 +55,15 @@
         flex-flow: column;
         justify-content: center;
         text-align: center;
-        border-right: 2px black solid;
-        border-top: colors.$border;
+        border: colors.$border;
     }
     
     .social {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-around;
         max-width: 100%;
-        ;
     }
     
     .info {
@@ -93,7 +86,6 @@
     
     .experience {
         @include mainbox;
-        margin-top: 15px;
         border-top-width: 2px;
     }
     
@@ -109,8 +101,9 @@
         width: 100%;
         /* Full width */
         background-color: #ddd;
-        height: 42px;
+        height: 43px;
         /* Grey background */
+        margin-bottom: 10px;
     }
     
     .skills {
