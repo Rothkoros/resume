@@ -1,5 +1,5 @@
 body {
-  background-color: #83d4f1;
+  background-color: #2dbdf7;
   background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
   font-size: 18px;
   max-height: 100vh;
@@ -11,8 +11,8 @@ body {
   display: flex;
   margin: 0 auto;
   padding-top: 40px;
-  background-color: #00b0f0;
-  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+  background-color: #27effd;
+  background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
   height: 200px;
   flex-flow: row;
   justify-content: space-evenly;
@@ -202,6 +202,11 @@ a {
 .linkedin, .github {
   height: 100px;
   width: 100px;
+}
+
+.profile {
+  margin-bottom: 5px;
+  border-bottom-width: 1px;
 }
 
 /*# sourceMappingURL=styles.css.map */
