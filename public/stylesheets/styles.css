@@ -1,5 +1,5 @@
 body {
-  background-color: #2dbdf7;
+  background-color: #d9edf5;
   background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
   font-size: 18px;
   max-height: 100vh;
@@ -11,7 +11,7 @@ body {
   display: flex;
   margin: 0 auto;
   padding-top: 40px;
-  background-color: #27effd;
+  background-color: #d6f3f5;
   background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
   height: 200px;
   flex-flow: row;
@@ -41,7 +41,7 @@ body {
   flex-flow: row-reverse;
   justify-content: space-between;
   min-height: 100vh;
-  background-color: lightblue;
+  background-color: #bcecfc;
 }
 
 .side-column {
