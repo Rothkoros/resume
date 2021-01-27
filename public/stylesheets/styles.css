@@ -177,6 +177,16 @@ body {
   width: 80%;
   background-color: #FF00FF;
 }
+.react{
+  width: 50%;
+  background-color: #ff7b00;
+}
+
+.node {
+  width: 35%;
+  background-color: #00ffbf;
+}
+
 
 /* Red */
 .job-title-box {
